@@ -12,3 +12,4 @@ export const environment = {
         measurementId: "G-DVSJ6680SJ"
       }
 }
+//CONFIGURACION DE FIREBASE EN NUESTRA APP WEB
