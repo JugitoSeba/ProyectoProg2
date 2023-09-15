@@ -13,11 +13,13 @@ import { SharedModule } from './shared/shared.module';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire/compat'; // CLOUD FIRESTORE
 import { AngularFireAuthModule } from '@angular/fire/compat/auth'; // AUTENTIFICACIÓN
-import { AngularFireStorageModule } from '@angular/fire/compat/storage'; // IMÁGENES
+import { AngularFireStorageModule } from '@angular/fire/compat/storage';
+import { ProductosComponent } from './productos/productos/productos.component'; // IMÁGENES
 
 @NgModule({
   declarations: [
     AppComponent,
+    ProductosComponent,
   ],
   imports: [
     BrowserModule,

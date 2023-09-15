@@ -4,13 +4,13 @@ import { CommonModule } from '@angular/common';
 import { AdminRoutingModule } from './admin-routing.module';
 import { TableComponent } from './components/table/table.component';
 import { AdminComponent } from './pages/admin/admin.component';
-
+import { MatIconModule } from "@angular/material/icon";
 
 @NgModule({
   declarations: [
     TableComponent,
-    AdminComponent
-  ],
+    AdminComponent]
+  ,  
   imports: [
     CommonModule,
     AdminRoutingModule
